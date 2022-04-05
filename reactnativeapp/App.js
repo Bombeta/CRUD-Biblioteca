@@ -1,6 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { style } from './assets/css/Css'
 import Page from './views/Page';
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 //import { StyleSheet } from 'react-native';
 import {View, Text, Button} from 'react-native'
 //import axios from "axios";
